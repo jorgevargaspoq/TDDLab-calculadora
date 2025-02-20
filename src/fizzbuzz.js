@@ -1,4 +1,14 @@
-function fizzbuzz(num) {
+
+/*document.getElementById("calcular").addEventListener("click", () => {
+    const numero = parseInt(document.getElementById("numero").value, 10);
+    if (!isNaN(numero)) {
+        document.getElementById("resultado").textContent = Fizzbuzz(numero);
+    } else {
+        document.getElementById("resultado").textContent = "Ingrese un número válido.";
+    }
+});*/
+
+function Fizzbuzz(num) {
     if (num % 3 === 0 && num % 5 === 0) {
         return "FizzBuzz";
     }
@@ -11,4 +21,4 @@ function fizzbuzz(num) {
     return num + "";
 }
 
-export default fizzbuzz;
+export default Fizzbuzz;
